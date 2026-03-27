@@ -527,7 +527,7 @@ ul {
 .pincode_face_container_red {
   padding: 10px;
   margin: auto;
-  width: 100%;
+  width: 40%;
   height: 100%;
   background: linear-gradient(112deg, rgba(189,61,87,0.95) 2%, rgba(211,65,94,0.9) 17%, rgba(199,56,84,0.8) 27%, rgba(203,50,81,0.8) 51%, rgba(223,50,84,0.4) 69%, rgba(199,56,84,0.8) 77%), WHITE;
   border: double rgb(17 17 17) 6px;
