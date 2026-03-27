@@ -1,0 +1,675 @@
+.gtfo_bumper {
+  height: 1000px;
+}
+
+.invisibletextlink a,
+.invisibletextlink a:link,
+.invisibletextlink a:visited {
+  border: 0;
+  color: inherit;
+  cursor: text;
+}
+
+.pinkglow {
+  opacity: 100%;
+}
+
+.pinkglow:hover {
+  color: #6aa84f;
+  opacity: 80%;
+}
+
+.orangeglow {
+  opacity: 100%;
+}
+
+.orangeglow:hover {
+  color: #f569e4;
+  opacity: 80%;
+}
+
+.purpleglow {
+  opacity: 100%;
+}
+
+.purpleglow:hover {
+  color: #9e69f5;
+  opacity: 80%;
+}
+
+.page {
+  margin-top: 25px;
+  height: 498px;
+  overflow-y: hidden;
+}
+
+.grid {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.gridcontainer {
+  display: grid;
+  width: 300px;
+  max-width: 100%;
+  height: 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gridcontainer1red {
+  display: grid;
+  grid-column: 1;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer1red:hover {
+  background: #dd639d;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer1redother {
+  display: grid;
+  grid-column: 1;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer1redother:hover {
+  background: #dd888c;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer2red {
+  display: grid;
+  grid-column: 2;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer2red:hover {
+  background: #dd639d;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer2redother {
+  display: grid;
+  grid-column: 2;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer2redother:hover {
+  background: #dd888c;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer3red {
+  display: grid;
+  grid-column: 3;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer3red:hover {
+  background: #dd639d;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer3redother {
+  display: grid;
+  grid-column: 3;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer3redother:hover {
+  background: #dd888c;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer1yellow {
+  display: grid;
+  grid-column: 1;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer1yellow:hover {
+  background: #ddc355;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer1yellowother {
+  display: grid;
+  grid-column: 1;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer1yellowother:hover {
+  background: #ddcd88;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer2yellow {
+  display: grid;
+  grid-column: 2;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer2yellow:hover {
+  background: #ddc355;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer2yellowother {
+  display: grid;
+  grid-column: 2;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer2yellowother:hover {
+  background: #ddcd88;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer3yellow {
+  display: grid;
+  grid-column: 3;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer3yellow:hover {
+  background: #ddc355;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer3yellowother {
+  display: grid;
+  grid-column: 3;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer3yellowother:hover {
+  background: #ddcd88;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer1blue {
+  display: grid;
+  grid-column: 1;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer1blue:hover {
+  background: #6a80dd;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer1blueother {
+  display: grid;
+  grid-column: 1;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer1blueother:hover {
+  background: #9188dd;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer2blue {
+  display: grid;
+  grid-column: 2;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer2blue:hover {
+  background: #6a80dd;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer2blueother {
+  display: grid;
+  grid-column: 2;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer2blueother:hover {
+  background: #9188dd;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer3blue {
+  display: grid;
+  grid-column: 3;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer3blue:hover {
+  background: #6a80dd;
+  border: solid black;
+  transition: 0s;
+}
+
+.gridcontainer3blueother {
+  display: grid;
+  grid-column: 3;
+  height: 100px;
+  background: #e3e3e3;
+  border: solid black;
+  transition: 1s;
+}
+
+.gridcontainer3blueother:hover {
+  background: #9188dd;
+  border: solid black;
+  transition: 0s;
+}
+
+.opacity5 {
+  transition: 2s;
+  opacity: 5%;
+}
+
+.opacity5:hover {
+  opacity: 20;
+  transition: opacity 10s;
+}
+
+.myblueglow {
+  color: auto;
+  font-weight: bold;
+  font-family: Georgia,Times,Times New Roman,serif;
+  transition: 1s;
+  opacity: 100%;
+}
+
+.myblueglow:hover {
+  color: #408ce6;
+  transition: 1s;
+  opacity: 100%;
+}
+
+.myblueglowreversi {
+  color: #408ce6;
+  transition: 1s;
+  opacity: 100%;
+}
+
+.myblueglowreversi:hover {
+  color: white;
+  transition: 1s;
+  opacity: 100%;
+}
+
+.blueglow {
+  transition: 2s;
+  opacity: 20%;
+}
+
+.blueglow:hover {
+  text-shadow: 1px 1px 0px black , -1px -1px 0px black;
+  color: #00FFFF;
+  opacity: 80%;
+  transition: opacity .5s;
+}
+
+.bluetoredglow {
+  color: #00FFFF;
+  transition: 1s;
+  opacity: 80%;
+}
+
+.bluetoredglow:hover {
+  color: #ff0066;
+  opacity: 100%;
+  transition: color 1s, opacity 1s;
+}
+
+.redglow:hover {
+  color: #fcba03;
+  font-weight: bold;
+  font-family: Georgia,Times,Times New Roman,serif;
+  transition: 1s;
+  opacity: 100%;
+}
+
+.yellowglow {
+  color: auto;
+  font-weight: bold;
+  font-family: Georgia,Times,Times New Roman,serif;
+  transition: 1s;
+  opacity: 100%;
+}
+
+.yellowglow:hover {
+  color: #dba049;
+  transition: 1s;
+  opacity: 100%;
+}
+
+.yellowglowreversi {
+  color: #dba049;
+  transition: 1s;
+  opacity: 100%;
+}
+
+.yellowglowreversi:hover {
+  color: white;
+  transition: 1s;
+  opacity: 100%;
+}
+
+.myredglow {
+  color: auto;
+  font-weight: bold;
+  font-family: Georgia,Times,Times New Roman,serif;
+  transition: 1s;
+  opacity: 100%;
+}
+
+.myredglow:hover {
+  color: #c73854;
+  transition: 1s;
+  opacity: 100%;
+}
+
+.myredglowreversi {
+  color: #c73854;
+  transition: 1s;
+  opacity: 100%;
+}
+
+.myredglowreversi:hover {
+  color: white;
+  transition: 1s;
+  opacity: 100%;
+}
+
+.redtoyellowglow {
+  color: #ff0066;
+  transition: 1s;
+  opacity: 80%;
+}
+
+.redtoyellowglow:hover {
+  color: #f1c232;
+  opacity: 100%;
+  transition: color 1s, opacity 1s;
+}
+
+.yellowtoblueglow {
+  color: #f1c232;
+  transition: 1s;
+  opacity: 80%;
+}
+
+.yellowtoblueglow:hover {
+  color: #00FFFF;
+  opacity: 100%;
+  transition: color 1s, opacity 1s;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.gtfo_bumper {
+  height: 1000px;
+}
+
+.pincode_padding {
+  height: 13px;
+  position: relative;
+}
+
+.pincode_main_container {
+  margin: auto;
+  padding: 5px;
+  max-width: 100%;
+  height: 1000px;
+  box-sizing: border-box;
+  overflow: hidden;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  font-size: 0px;
+}
+
+.pincode_face_container_blue {
+  padding: 10px;
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(112deg, rgba(66,127,198,0.95) 2%, rgba(50,134,233,0.9) 17%, rgba(64,140,230,1) 27%, rgba(58,146,249,0.8) 51%, rgba(32,135,255,0.4) 69%, rgba(64,140,230,0.8) 77%), WHITE;
+  border: double rgb(17 17 17) 6px;
+  border-radius: 20%;
+  box-sizing: border-box;
+}
+
+.pincode_face_container_yellow {
+  padding: 10px;
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(112deg, rgba(198,145,66,0.95) 2%, rgba(219,149,46,0.9) 17%, rgba(219,160,73,1) 27%, rgba(219,141,26,0.8) 51%, rgba(236,152,28,0.5) 69%, rgba(219,160,73,1) 77%), WHITE;
+  border: double rgb(17 17 17) 6px;
+  border-radius: 20%;
+  box-sizing: border-box;
+}
+
+.pincode_face_container_red {
+  padding: 10px;
+  margin: auto;
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(112deg, rgba(189,61,87,0.95) 2%, rgba(211,65,94,0.9) 17%, rgba(199,56,84,0.8) 27%, rgba(203,50,81,0.8) 51%, rgba(223,50,84,0.4) 69%, rgba(199,56,84,0.8) 77%), WHITE;
+  border: double rgb(17 17 17) 6px;
+  border-radius: 20%;
+  box-sizing: border-box;
+}
+
+.pincode_button_container {
+  text-align: center;
+  padding: 5px;
+  border: solid #1c1c1c0 1.5px;
+  border-radius: 5%;
+  height: 100%;
+  box-sizing: border-box;
+  transition-delay: 3s;
+  transition: .5s;
+}
+
+.pincode_button_header {
+  position: relative;
+  margin-bottom: 10px;
+  padding-top: 5%;
+  height: 20%;
+  box-sizing: border-box;
+  border: solid #313131 1.5px;
+  border-radius: 5%;
+  background: linear-gradient(0deg, rgb(31 41 28) 0%, rgba(14,14,14,0) 70%);
+  text-align: center;
+  color: black;
+  transition: background .4s;
+}
+
+.pincode_button_header_red {
+  position: relative;
+  margin-bottom: 10px;
+  margin-left: 38px;
+  padding-top: 10%;
+  width: 70%;
+  height: 20%;
+  box-sizing: border-box;
+  border: solid #313131 1.5px;
+  border-radius: 5%;
+  background: linear-gradient(0deg, rgba(189 61 87,0) 0%, rgb(199,56,84) 70%);
+  text-align: center;
+  vertical-align: bottom;
+  color: black;
+  transition: background .4s;
+}
+
+.pincode_button_header_yellow {
+  position: relative;
+  margin-bottom: 10px;
+  padding-top: 5%;
+  width: 70%;
+  height: 20%;
+  box-sizing: border-box;
+  border: solid #313131 1.5px;
+  border-radius: 5%;
+  background: linear-gradient(0deg, rgba(198 145 66,0) 0%, rgb(219,160,73) 70%);
+  text-align: center;
+  color: black;
+  transition: background .4s;
+}
+
+.pincode_button_header_blue {
+  position: relative;
+  margin-bottom: 10px;
+  padding-top: 5%;
+  width: 70%;
+  height: 20%;
+  box-sizing: border-box;
+  border: solid #313131 1.5px;
+  border-radius: 5%;
+  background: linear-gradient(0deg, rgba(66 127 198,0) 0%, rgb(64,140,230) 70%);
+  text-align: center;
+  color: black;
+  transition: background .4s;
+}
+
+.text {
+  font-size: 30px;
+  transition-delay: .5s;
+  transition: .5s;
+}
+
+.pincode_button_container:active .text {
+  color: white;
+  transition: .3s;
+}
+
+.pincode_button_row {
+  position: relative;
+  padding: 1px;
+  height: 20%;
+  box-sizing: border-box;
+}
+
+.pincode_buttons {
+  margin: 1px;
+  width: 20%;
+  max-width: 25%;
+  display: inline-block;
+  padding-top: 3%;
+  height: 85%;
+  box-sizing: border-box;
+  text-align: center;
+  border: solid #0e0e0e 1.5px;
+  border-radius: 10%;
+  transition: .2s;
+}
+
+.pincode_buttons a {
+  font-family: courier, monospace;
+  font-size: 26px;
+  color: black;
+  border-bottom: none;
+  outline: none;
+}
+
+.pincode_buttons a:active {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.pincode_buttons a:visited {
+  color: black;
+}
+
+.pincode_buttons a:visited:hover,
+.pincode_buttons a:hover {
+  color: #f3f3f3;
+}
+
+.pincode_answer_container {
+  width: 80%;
+  height: 100%;
+  font-size: initial;
+  overflow-x: hidden;
+  user-select: text;
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  -o-user-select: text;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
